@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtualenv
+.venv/
+
+# Tool caches
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets — only .env.example is committed
+.env
+.env.*
+!.env.example
+
+# Raw scanner output; only curated samples are committed (see reports/)
+reports/*
+!reports/.gitkeep
+!reports/samples/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Personal prompt notes
+PROMPTS.md
